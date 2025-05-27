@@ -8,7 +8,7 @@ window.title("Random Password Generator")
 window.geometry("600x400")
 window.resizable(False, False)
 
-bg_image = Image.open("python code/ranger-4df6c1b6.png").resize((600, 400))
+bg_image = Image.open("password_generator-main/ranger-4df6c1b6.png").resize((600, 400))
 bg_photo = ImageTk.PhotoImage(bg_image)
 bg_label = tk.Label(window, image=bg_photo)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
